@@ -1,31 +1,21 @@
 {
   "name" : "node-recurly",
-  "description" : "Library for accessing the api for the Recurly recurring billing service.",
-  "keywords" : [
-    "recurly",
-    "e-commerce",
-    "recurring billing"
-  ],
-  "version" : "2.1.0",
+  "version" : "2.1.1",
   "homepage" : "https://github.com/AlexisReverte/node-recurly",
-  "author" : "Rob Righter <robrighter@gmail.com> (http://github.com/robrighter)",
-  "contributors" : [
-    "Iván Guardado <dev.ivangc@gmail.com> (http://github.com/IvanGuardado)",
-    "Rob Righter <robrighter@gmail.com> (http://github.com/robrighter)",
-    "Dmitriy Shekhovtsov <valorkin@gmail.com> (https://github.com/valorkin)"
-  ],
   "bugs" : {
     "web" : "https://github.com/AlexisReverte/node-recurly/issues"
   },
   "directories" : {
     "lib" : "./lib"
   },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexisReverte/node-recurly.git"
+  },
   "main" : "./lib/recurly.js",
   "dependencies" : {
     "xml2js" : ">= 0.4.0",
-    "js2xml" : "philjackson/js2xml"
-  },
-  "engines" : {
-    "node" : ">= 0.4"
+    "libxmljs": ">=0.8.1"
   }
 }
