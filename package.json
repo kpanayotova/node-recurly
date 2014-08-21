@@ -1,6 +1,6 @@
 {
   "name" : "node-recurly-updated",
-  "version" : "2.1.2",
+  "version" : "2.1.3",
   "homepage" : "https://github.com/AlexisReverte/node-recurly",
   "bugs" : {
     "web" : "https://github.com/AlexisReverte/node-recurly/issues"
